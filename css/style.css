@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'PT Sans Narrow', arial;
+    src: url("fonts/ptsansnarrow.woff") format("woff");
+    src: url("fonts/ptsansnarrow.woff2") format("woff2");
+    src: url("fonts/ptsansnarrowbold.woff") format("woff");
+    src: url("fonts/ptsansnarrowbold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+	font-family: PT Sans Narrow, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    color: #000;
+    font-weight: bold;
+}
+
+h1, 
+h2 {
+	font-size: 30px;
+}
