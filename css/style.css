@@ -1,17 +1,17 @@
 @font-face {
     font-family: 'PT Sans Narrow', arial;
-    src: url("fonts/ptsansnarrow.woff") format("woff");
-    src: url("fonts/ptsansnarrow.woff2") format("woff2");
-    src: url("fonts/ptsansnarrowbold.woff") format("woff");
-    src: url("fonts/ptsansnarrowbold.woff2") format("woff2");
+    src: url("fonts/ptsansnarrow.woff") format("woff"),
+         url("fonts/ptsansnarrow.woff2") format("woff2"),
+         url("fonts/ptsansnarrowbold.woff") format("woff"),
+         url("fonts/ptsansnarrowbold.woff2") format("woff2");
     font-style: normal;
     font-weight: normal;
 }
 
 body {
-	font-family: PT Sans Narrow, Arial, Helvetica, sans-serif;
+	font-family: PT Sans Narrow, Arial, sans-serif;
     font-size: 14px;
-    line-height: normal;
+    line-height: 24px;
     color: #000;
     font-weight: bold;
 }
